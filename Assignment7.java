@@ -1,4 +1,4 @@
-package assignments.Assignment;
+package Assignments.assignment;
 import java.time.LocalDate;
 
 public class Assignment7 {
