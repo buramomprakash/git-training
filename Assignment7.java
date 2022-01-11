@@ -26,12 +26,9 @@ public class Assignment7 {
         year=System.console().readLine();
         LocalDate sd=LocalDate.of(Integer.parseInt(year),Integer.parseInt(month),Integer.parseInt(day));
         System.out.println("Date Entered: " +sd);
-        //System.out.println(sd.getDayOfWeek());
-        //System.out.println(samplDate.minus(,ChronoUnit.DAYS));
-        for(int i=1;i<=Integer.parseInt(day) ;i++){
-        //System.out.println(sd);
-        //System.out.println(sd.minusDays(1));
-        // System.out.println(sd.getDayOfWeek());
+        
+        for(int i=1;i<=Integer.parseInt(day) ;i++)
+        {
         LocalDate readDate=LocalDate.of(Integer.parseInt(year),Integer.parseInt(month),i);
         System.out.print(readDate);
         System.out.println("      " +readDate.getDayOfWeek());
