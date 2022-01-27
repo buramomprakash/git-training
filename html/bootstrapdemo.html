@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootstrapDemo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="container bg-strong">
-<p class="display-6 "> Google Form </p>
-<div class="row">
-    <p>
-        
-    </p>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootstrapDemos</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+    </nav>
+    <div class="container bg-light">
+      <p class="display-1 text-center p-3">Google Form</p>
 
-</div>
+      <div class="row">
+        <p class="text-center">
+          Please provide your Details.
+        </p>
+        <div class="col-md-5">
+          <div class="form-group">
+            <label for="fullName">Fullname</label>
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              class="form-control"
+            />
+            <p class="small">Please provide your fullname here.</p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" />
+            <p class="small">Please provide your email address here.</p>
+          </div>
+          <hr />
 
-    
-</body>
+          <div class="form-group">
+            <label for="cardNumber">Aadhar Number</label>
+            <input
+              type="text"
+              name="AadharNumber"
+              id="AadharNumber"
+              class="form-control"
+            />
+            <p class="small">Please provide your aadhar number here.</p>
+          </div>
+          <div class="form-group">
+            <label for="cardExpiry">Date of Birth</label>
+            <input
+              type="date"
+              name="Date of Birth"
+              id="DOB"
+              class="form-control"
+            />
+            <p class="small">Please provide your DOB here.</p>
+          </div>
+        </div>
+        <div class="col-5 offset-1">
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              class="form-control"
+            />
+            <p class="small">Please provide your address here.</p>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" class="form-control" />
+            <p class="small">Please provide your city here.</p>
+          </div>
+          <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state" class="form-control" />
+            <p class="small">Please provide your state here.</p>
+          </div>
+          <div class="form-group">
+            <label for="zip">Zip</label>
+            <input type="text" name="zip" id="zip" class="form-control" />
+            <p class="small">Please provide your zip code here.</p>
+          </div>
+          <button class="btn btn-danger">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
