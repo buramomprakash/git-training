@@ -38,7 +38,7 @@ public class AuthorServicesImpl implements AuthorServices{
     }
     @Override
     public Author getAuthorByemail(String name) {
-        // TODO Auto-generated method stub
+        
         return null;
     }
     
