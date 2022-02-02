@@ -38,7 +38,7 @@ public class Bookcontroller {
         book.setPublicationDate(LocalDate.now());
         return bookService.createBook(book);
     }
-    @GetMapping("/bookss/{id}")
+    @GetMapping("/books/{id}")
     public Book getBookById(@PathVariable int id){
         return bookService.getBookById(id);
     }
