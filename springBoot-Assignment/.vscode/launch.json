@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LibraryRestAppApplication<library-rest-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.dxc.learning.libraryrestapp.LibraryRestAppApplication",
+            "projectName": "library-rest-app",
+            "args": ""
+        }
+    ]
+}
