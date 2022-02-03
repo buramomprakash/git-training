@@ -15,15 +15,22 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
+
 public class PersonDto {
-    //@NotBlank(message="User Id is Mandatory")
+    
+    @NotBlank(message="User Id is Mandatory")
     private Integer id;
-    //@NotBlank(message="User Name is Mandatory")
+    
+    @NotBlank(message="User Name is Mandatory")
     private String name;
-    //@NotBlank(message="Local Date is Mandatory")
+    
+    @NotBlank(message="Local Date is Mandatory")
     private LocalDate dob;
-    //@NotBlank(message="Address is Mandatory")
+    
+    @NotBlank(message="Address is Mandatory")
     private String address;
-    //@NotBlank(message="Email is Mandatory")
+    
+    @NotBlank(message="Email is Mandatory")
     private String email;
 }
