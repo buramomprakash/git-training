@@ -1,0 +1,15 @@
+{
+  "name": "math-ops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "abc":"node index.js  server:8080 localhost:3434 name:om id:123",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "om",
+  "license": "ISC"
+}
